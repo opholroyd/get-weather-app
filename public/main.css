@@ -72,20 +72,11 @@ input:focus {
 }
 
 @media (max-width: 600px) {
-    .main {
-        width: 100%;
-        height: 100vh;
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
-        align-items: center;
-    }
-
     .title {
         font-family: 'Julius Sans One', sans-serif;
         color: white;
         font-size: 40px;
-        text-align: center;
+        text-align: center
     }
 
     #weatherInput {
